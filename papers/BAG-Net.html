@@ -1,55 +1,69 @@
-<meta name="citation_title" content="BAG-Net: Bidirectional Receptive-Field Graph Network for Two-View Correspondence Pruning">
+<!DOCTYPE html>
+<html lang="en">
 
-<meta name="citation_author" content="Wang, Leyi">
-<meta name="citation_author" content="Chen, Hao">
-<meta name="citation_author" content="Yang, Changcai">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="citation_publication_date" content="2026">
+    <title>BAG-Net: Bidirectional Receptive-Field Graph Network for Two-View Correspondence Pruning</title>
 
-<meta name="citation_conference_title" content="Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence (IJCAI-26)">
+    <!-- Google Scholar Metadata -->
+    <meta name="citation_title" content="BAG-Net: Bidirectional Receptive-Field Graph Network for Two-View Correspondence Pruning">
 
-<meta name="citation_firstpage" content="1731">
-<meta name="citation_lastpage" content="1739">
+    <meta name="citation_author" content="Leyi Wang">
+    <meta name="citation_author" content="Hao Chen">
+    <meta name="citation_author" content="Changcai Yang">
 
-<meta name="citation_doi" content="10.24963/ijcai.2026/193">
+    <meta name="citation_publication_date" content="2026">
 
-<meta name="citation_pdf_url" content="https://leyi9971.github.io/papers/BAG-Net_IJCAI2026.pdf">
+    <meta name="citation_conference_title" content="Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence, IJCAI-26">
+
+    <meta name="citation_firstpage" content="1731">
+    <meta name="citation_lastpage" content="1739">
+
+    <meta name="citation_doi" content="10.24963/ijcai.2026/193">
+
+    <meta name="citation_pdf_url" content="https://leyi9971.github.io/papers/BAG-Net_IJCAI2026.pdf">
+
+</head>
+
 <body>
 
 <h1>BAG-Net: Bidirectional Receptive-Field Graph Network for Two-View Correspondence Pruning</h1>
 
 <p>
-  Leyi Wang, Hao Chen*, Changcai Yang*
+    Leyi Wang, Hao Chen*, Changcai Yang*
 </p>
 
 <p>
-  <strong>Proceedings of IJCAI-ECAI 2026</strong><br>
-  Main Track, pp. 1731–1739
+    <strong>Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence (IJCAI-26)</strong><br>
+    Main Track, 2026, pp. 1731–1739
 </p>
 
 <p>
-  DOI:
-  <a href="https://doi.org/10.24963/ijcai.2026/193">
-    10.24963/ijcai.2026/193
-  </a>
+    DOI:
+    <a href="https://doi.org/10.24963/ijcai.2026/193">
+        10.24963/ijcai.2026/193
+    </a>
 </p>
 
 <h2>Abstract</h2>
 
 <p>
-  Learning reliable two-view correspondences is essential for geometric computer vision applications. Existing graph-based pruning methods typically aggregate information unidirectionally, capturing only whether a correspondence receives neighborhood support while ignoring its structural contribution during aggregation. This makes it difficult to distinguish locally clustered outliers from globally critical inliers. To overcome this limitation, we propose a Bidirectional Receptive-Field Graph Network (BAG-Net), which introduces a bidirectional aggregation perspective for correspondence pruning. Specifically, we design Bidirectional Dynamic Graph Convolution (BiDGC) that jointly models forward consistency aggregation and reverse structural dependency, enabling the network to identify key inliers that are widely referenced during feature propagation. To further enhance robustness, we design a Stage-wise Graph Expansion-Contraction (SGEC) architecture that combines multi-scale receptive field evolution with Stage-wise Squeeze-and-Excitation (SSE) and Deep-Guided Modulation (DGM) to stabilize feature propagation across network stages. Extensive experiments on the YFCC100M and SUN3D datasets demonstrate that BAG-Net significantly outperforms existing SOTA methods in both outlier rejection and camera pose estimation, achieving 66.10% and 78.88% mAP<sub>5°</sub> (%) on YFCC100M in known and unknown scenes, respectively. Source code: <a href="https://github.com/LeyiWang13/BAG-Net">GitHub</a>.
+    Learning reliable two-view correspondences is essential for geometric computer vision applications. Existing graph-based pruning methods typically aggregate information unidirectionally, capturing only whether a correspondence receives neighborhood support while ignoring its structural contribution during aggregation. This makes it difficult to distinguish locally clustered outliers from globally critical inliers. To overcome this limitation, we propose a Bidirectional Receptive-Field Graph Network (BAG-Net), which introduces a bidirectional aggregation perspective for correspondence pruning. Specifically, we design Bidirectional Dynamic Graph Convolution (BiDGC) that jointly models forward consistency aggregation and reverse structural dependency, enabling the network to identify key inliers that are widely referenced during feature propagation. To further enhance robustness, we design a Stage-wise Graph Expansion-Contraction (SGEC) architecture that combines multi-scale receptive field evolution with Stage-wise Squeeze-and-Excitation (SSE) and Deep-Guided Modulation (DGM) to stabilize feature propagation across network stages. Extensive experiments on the YFCC100M and SUN3D datasets demonstrate that BAG-Net significantly outperforms existing SOTA methods in both outlier rejection and camera pose estimation, achieving 66.10% and 78.88% mAP<sub>5°</sub> (%) on YFCC100M in known and unknown scenes, respectively. Source code: <a href="https://github.com/LeyiWang13/BAG-Net">GitHub</a>.
 </p>
 
 <p>
-  <a href="./BAG-Net_IJCAI2026.pdf">
-    Download PDF
-  </a>
+    <a href="./BAG-Net_IJCAI2026.pdf">
+        Download PDF
+    </a>
 </p>
 
 <p>
-  <a href="https://ijcai.org/proceedings/2026/0193.pdf">
-    Official IJCAI PDF
-  </a>
+    <a href="https://ijcai.org/proceedings/2026/0193.pdf">
+        Official IJCAI PDF
+    </a>
 </p>
 
 </body>
+</html>
